@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Fakebook:members</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Custom styles for this template -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <div id="fb-root"></div>
+      
+    <header>
+      <div class="container">
+        <img src="images/logo.jpg" class = "logo">
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputPassword3">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-default">Sign in</button><br>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Remember me
+            </label>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+      <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="groups.html">Groups</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="profile.html">Profile</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- Page Content -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="panel panel-default">
+              <div class="panel-heading">Wall</div>
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    
+                    <textarea class="form-control" placeholder="Write on the Wall"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                  <div class="pull-right">
+                    <div class="btn-group" role="group" >
+                      <button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Text</button>
+                      <button type="button" class="btn btn-default"><i class="fa fa-image"></i> Image</button>
+                      <button type="button" class="btn btn-default"><i class="fa fa-file-video-o"></i> Video</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div id = "append">
+                  <div class="panel panel-default post">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <a class="post-avatar thumbnail" href = "profile.html">
+                            <img src="images/user.jpg">
+                            <div class="text-center">DevUser1</div></a>
+                            <div class="likes text center">7 Likes</div>
+                          </div><!--End 2 col--><div class="col-sm-10">
+                            <div class="bubble">
+                              <div class="pointer0"></div>
+                            <div class="pointer-border"></div>
+                          </div><!--bubble ends-->
+                          <p class="post-actions"><a href="#">Comment</a> - <a href="#">Like</a> - <a href="#">Follow</a><a href="#">Share</a></p> <div class="comment-form"><form class="form-inline"><div class="form-group"><label  class="sr-only">Comment</label><input type="text" class="form-control" id="inputPassword2" placeholder="comment">
+                          </div>
+                          <button type="submit" class="btn btn-default">Comment</button></form>
+                        </div><!--Comment Form Ends-->
+                        <div class="clearfix"></div>
+                        <div class="comments">
+                          <div class="comment"><a class="comment-avatar pull-left" href="#"><img src="images/user.jpg"></a>
+                            <div class="comment-text"><p>Sde ask ljsa lja lja sd ljasd jldas.</p>
+                            </div>
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="comments"><div class="comment"><a class="comment-avatar pull-left" href="#"><img src="images/user.jpg"></a><div class="comment-text"><p>Sde ask ljsa lja lja sd ljasd jldas.</p>
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default post">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <a class="post-avatar thumbnail" href = "profile.html">
+                            <img src="images/user.jpg">
+                            <div class="text-center">DevUser1</div></a>
+                            <div class="likes text center">7 Likes</div>
+                          </div><!--End 2 col--><div class="col-sm-10">
+                            <div class="bubble">
+                              <div class="pointer1"></div>
+                            <div class="pointer-border"></div>
+                          </div><!--bubble ends-->
+                          <p class="post-actions"><a href="#">Comment</a> - <a href="#">Like</a> - <a href="#">Follow</a><a href="#">Share</a></p> <div class="comment-form"><form class="form-inline"><div class="form-group"><label  class="sr-only">Comment</label><input type="text" class="form-control" id="inputPassword2" placeholder="comment">
+                          </div>
+                          <button type="submit" class="btn btn-default">Comment</button></form>
+                        </div><!--Comment Form Ends-->
+                        <div class="clearfix"></div>
+                        <div class="comments">
+                          <div class="comment"><a class="comment-avatar pull-left" href="#"><img src="images/user.jpg"></a>
+                            <div class="comment-text"><p>Sde ask ljsa lja lja sd ljasd jldas.</p>
+                            </div>
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="comments"><div class="comment"><a class="comment-avatar pull-left" href="#"><img src="images/user.jpg"></a><div class="comment-text"><p>Sde ask ljsa lja lja sd ljasd jldas.</p>
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default post">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <a class="post-avatar thumbnail" href = "profile.html">
+                            <img src="images/user.jpg">
+                            <div class="text-center">DevUser1</div></a>
+                            <div class="likes text center">7 Likes</div>
+                          </div><!--End 2 col--><div class="col-sm-10">
+                            <div class="bubble">
+                              <div class="pointer2"></div>
+                            <div class="pointer-border"></div>
+                          </div><!--bubble ends-->
+                          <p class="post-actions"><a href="#">Comment</a> - <a href="#">Like</a> - <a href="#">Follow</a><a href="#">Share</a></p> <div class="comment-form"><form class="form-inline"><div class="form-group"><label  class="sr-only">Comment</label><input type="text" class="form-control" id="inputPassword2" placeholder="comment">
+                          </div>
+                          <button type="submit" class="btn btn-default">Comment</button></form>
+                        </div><!--Comment Form Ends-->
+                        <div class="clearfix"></div>
+                        <div class="comments">
+                          <div class="comment"><a class="comment-avatar pull-left" href="#"><img src="images/user.jpg"></a>
+                            <div class="comment-text"><p>Sde ask ljsa lja lja sd ljasd jldas.</p>
+                            </div>
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="comments"><div class="comment"><a class="comment-avatar pull-left" href="#"><img src="images/user.jpg"></a><div class="comment-text"><p>Sde ask ljsa lja lja sd ljasd jldas.</p>
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default post">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <a class="post-avatar thumbnail" href = "profile.html">
+                            <img src="images/user.jpg">
+                            <div class="text-center">DevUser1</div></a>
+                            <div class="likes text center">7 Likes</div>
+                          </div><!--End 2 col--><div class="col-sm-10">
+                            <div class="bubble">
+                              <div class="pointer3"></div>
+                            <div class="pointer-border"></div>
+                          </div><!--bubble ends-->
+                          <p class="post-actions"><a href="#">Comment</a> - <a href="#">Like</a> - <a href="#">Follow</a><a href="#">Share</a></p> <div class="comment-form"><form class="form-inline"><div class="form-group"><label  class="sr-only">Comment</label><input type="text" class="form-control" id="inputPassword2" placeholder="comment">
+                          </div>
+                          <button type="submit" class="btn btn-default">Comment</button></form>
+                        </div><!--Comment Form Ends-->
+                        <div class="clearfix"></div>
+                        <div class="comments">
+                          <div class="comment"><a class="comment-avatar pull-left" href="#"><img src="images/user.jpg"></a>
+                            <div class="comment-text"><p>Sde ask ljsa lja lja sd ljasd jldas.</p>
+                            </div>
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="comments"><div class="comment"><a class="comment-avatar pull-left" href="#"><img src="images/user.jpg"></a><div class="comment-text"><p>Sde ask ljsa lja lja sd ljasd jldas.</p>
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+     		        
+        </div>
+          <!--COl_MD_8-END-->
+          <div class="col-md-4"> 
+            <div class="panel panel-default friends">
+              <div class="panel-heading">My friends</div>
+              <div class="panel-body">
+                <ul>
+                  <li><a class="thumbnail" href = "profile"><img src="images/user.jpg"></a></li>
+                  <li><a class="thumbnail" href = "profile"><img src="images/user.jpg"></a></li>
+                  <li><a class="thumbnail" href = "profile"><img src="images/user.jpg"></a></li>
+                  <li><a class="thumbnail" href = "profile"><img src="images/user.jpg"></a></li>
+                  <li><a class="thumbnail" href = "profile"><img src="images/user.jpg"></a></li>
+                   <li><a class="thumbnail" href = "profile"><img src="images/user.jpg"></a></li>
+                </ul>
+
+                <div class="clearfix"></div>
+                <a class="btn btn-primary" href="#">View All</a>
+              </div>
+            </div>
+
+            <div class="panel panel-default groups">
+              <div class="panel-heading ">
+                <h3 class="panel-title">Latest Groups</h3>
+              </div>
+              <div class="panel-body">
+                <div class="group-item ">
+                  <img src="images/groups.png">
+                  <h4><a href="#">Sample Group One</a></h4>
+                  <p>This is a Sample group</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="group-item ">
+                  <img src="images/groups.png">
+                  <h4><a href="#">Sample Group One</a></h4>
+                  <p>This is a Sample group</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="group-item ">
+                  <img src="images/groups.png">
+                  <h4><a href="#">Sample Group One</a></h4>
+                  <p>This is a Sample group</p>
+                </div>
+                <div class="clearfix"></div>
+
+                <a class="btn btn-primary" href="#">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>Fakebook Copyright &copy; 2018 All Rights Reserved</p>
+      </div>
+    </footer>
+    
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src = "js/home.js"></script>
+    <!--<script src="vendor/bootstrap/js/bootstrap.min.js"></script>-->
+
+  </body>
+
+</html>
